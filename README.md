@@ -102,7 +102,7 @@ image_w = 64; image_h = 64
 
 X_train, X_test, Y_train, Y_test = np.load("./object/obj_5.npy")
 
-X_train = X_train.astype("float") / 256; X_test = X_test.astype("float") / 256 
+X_train = X_train.astype("float") / 255; X_test = X_test.astype("float") / 255 
 
 
 nfilter = bsize = 32; opt = ['adam','rmsprop']
